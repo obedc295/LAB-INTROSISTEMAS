@@ -3,14 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FRONTEND/estilos.css">
     <title>Presentacion Obed Castellanos</title>
 </head>
+<header>
+<h1>Presentación</h1>
+
+<title>Acerca de mí</title>
+<script>
+function mostrarAcercaDeMi() {
+  var infoContainer = document.getElementById("informacion");
+  infoContainer.innerHTML = "Mi nombre es Obed Eliel Castellanos Oseguera, estudio la carrera de Ingenieria en sistemas en la UNAH.";
+}
+</script>
+
+
+
+<title>Redes Sociales</title>
+<script>
+    function mostrarRedes(){
+        var infoContainer = document.getElementById("redes");
+        infoContainer.innerHTML = "github: github/obedc295.com";
+    }
+</script>
+
+<button onclick="mostrarAcercaDeMi()">Acerca de Mí</button>
+<div id="informacion"></div><p>
+</p>
+
+<div><button onclick="mostrarRedes()">Redes Sociales</button>
+<div id="redes"></div> </div>
+</header>
 <body>
-    <h1>Presentación</h1>
-   <h2>Mi nombre es Obed Eliel Castellanos Oseguera y actualmente estoy cursando mi primer periodo en la UNAH en la carrera de Ingenieria en Sistemas.</h2>
-   <h2>Tengo 17 años.</h2>
-   <h2>Soy de Moroceli, El paraiso.</h2>
-   <p></p>
+    
 </body>
 <footer>Saludos! =)</footer>
 </html>
